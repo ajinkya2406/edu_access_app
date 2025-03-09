@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Dark"
+        tools:targetApi="31">
+        <activity
+            android:name=".twelfth.exam_paper_12.eng"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.exam_paper_12.phy"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.exam_paper_12.math"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.exam_paper_12.chem"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.exam_paper_12.science_ep_12"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.exam_paper_10.sst_10_ep"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.exam_paper_10.science_10_ep"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.exam_paper_10.math_10_ep"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.exam_paper_10.hindi_10_ep"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.exam_paper_10.eng_10_ep"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.sb_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.sb_ped"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.sb_phy"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.sb_math"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.sb_eng"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.sb_chem"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.science_sb_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.ped_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.hindi_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.eng_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.math_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.chem_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.phy_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.science_12th"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_os"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_foc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_dbms"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_cp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_co"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_bc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_am"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_acp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sn_fy.sn_fy_bca"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_bca"
+            android:exported="false" />
+        <activity
+            android:name=".FY.fy_ep_sb_sn"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_dbms"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_os"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_acp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_co"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_bc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_am"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_foc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_cp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.fy_main"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_main"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sn_fy.ep_fy.sb_fy_main"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.Science_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.SST_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.Maths_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.Hindi_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.English_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.Science_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.SST_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.Maths_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.Hindi_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.English_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.shorts_notes_12.short_notes_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.exam_paper_12.exam_paper_12"
+            android:exported="false" />
+        <activity
+            android:name=".twelfth.study_books_12.study_books_12"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.short_notes_10"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.exam_paper_10.exam_paper_10"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.study_books_10"
+            android:exported="false" />
+        <activity
+            android:name=".FY_Books"
+            android:exported="false" />
+        <activity
+            android:name=".Twelfth_Books"
+            android:exported="false" />
+        <activity
+            android:name=".Tenth_Books"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".login_reg.Registration"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Dark.NoActionBar" />
+        <activity
+            android:name=".login_reg.login"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Dark.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Dark.NoActionBar" />
+    </application>
+
+</manifest>
