@@ -1,4 +1,4 @@
-package com.example.educationalbook.FY.sn_fy;
+package com.example.educationalbook.FY.ep_fy;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,24 +22,22 @@ import com.example.educationalbook.FY.sb_fy.sb_fy_foc;
 import com.example.educationalbook.FY.sb_fy.sb_fy_os;
 import com.example.educationalbook.R;
 
-public class sn_fy_bca extends AppCompatActivity {
-
-    ImageView fyback;
-    ImageView sbcp;
-    ImageView sbfoc;
-    ImageView sbam;
-    ImageView sbbc;
-    ImageView sbco;
-    ImageView sbacp;
-    ImageView sbos;
-    ImageView sbdbms;
+public class ep_bca extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ImageView fyback;
+        ImageView sbcp;
+        ImageView sbfoc;
+        ImageView sbam;
+        ImageView sbbc;
+        ImageView sbco;
+        ImageView sbacp;
+        ImageView sbos;
+        ImageView sbdbms;
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_sn_fy_bca);
-
+        setContentView(R.layout.activity_ep_bca);
         sbcp = findViewById(R.id.sb_cp);
         sbfoc = findViewById(R.id.sb_foc);
         sbam = findViewById(R.id.sb_am);
@@ -61,7 +59,7 @@ public class sn_fy_bca extends AppCompatActivity {
         sbcp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_cp.class);
+                Intent i = new Intent(getApplicationContext(), ep_cp.class);
                 startActivity(i);
                 finish();
             }
@@ -69,7 +67,7 @@ public class sn_fy_bca extends AppCompatActivity {
         sbfoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_foc.class);
+                Intent i = new Intent(getApplicationContext(), ep_foc.class);
                 startActivity(i);
                 finish();
             }
@@ -77,7 +75,7 @@ public class sn_fy_bca extends AppCompatActivity {
         sbam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_am.class);
+                Intent i = new Intent(getApplicationContext(), ep_am.class);
                 startActivity(i);
                 finish();
             }
@@ -85,7 +83,7 @@ public class sn_fy_bca extends AppCompatActivity {
         sbbc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_bc.class);
+                Intent i = new Intent(getApplicationContext(), ep_bc.class);
                 startActivity(i);
                 finish();
             }
@@ -93,7 +91,7 @@ public class sn_fy_bca extends AppCompatActivity {
         sbacp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_acp.class);
+                Intent i = new Intent(getApplicationContext(), ep_acp.class);
                 startActivity(i);
                 finish();
             }
@@ -101,7 +99,7 @@ public class sn_fy_bca extends AppCompatActivity {
         sbco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_co.class);
+                Intent i = new Intent(getApplicationContext(), ep_co.class);
                 startActivity(i);
                 finish();
             }
@@ -109,7 +107,7 @@ public class sn_fy_bca extends AppCompatActivity {
         sbos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_os.class);
+                Intent i = new Intent(getApplicationContext(), ep_os_fy.class);
                 startActivity(i);
                 finish();
             }
@@ -117,12 +115,11 @@ public class sn_fy_bca extends AppCompatActivity {
         sbdbms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sn_dbms.class);
+                Intent i = new Intent(getApplicationContext(), ep_dbms.class);
                 startActivity(i);
                 finish();
             }
         });
-
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

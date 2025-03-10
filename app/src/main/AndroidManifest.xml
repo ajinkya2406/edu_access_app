@@ -15,6 +15,40 @@
         android:theme="@style/Theme.Material3.Dark"
         tools:targetApi="31">
         <activity
+            android:name=".FY.ep_fy.ep_os_fy"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_os"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Dark" />
+        <activity
+            android:name=".FY.ep_fy.ep_foc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_dbms"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_cp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_co"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_bc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_am"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_acp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_bca"
+            android:exported="false" />
+        <activity
+            android:name=".FY.ep_fy.ep_fy_bca"
+            android:exported="false" />
+        <activity
             android:name=".twelfth.exam_paper_12.eng"
             android:exported="false" />
         <activity

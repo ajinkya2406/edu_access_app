@@ -27,7 +27,7 @@ class sb_fy_cp : AppCompatActivity() {
 
         sb_eng!!.getSettings().javaScriptEnabled = true
         sb_eng!!.setWebViewClient(WebViewClient())
-        sb_eng!!.loadUrl("https://drive.google.com/file/d/1G3iivzKjc5eM4nLgjOhZR9DTvjHFT7ia/view?usp=drive_link")
+        sb_eng!!.loadUrl("https://drive.google.com/file/d/1mHjn5X1zfLDdQ8wMykFgWWCh0D4dVJbE/view?usp=drive_link")
         supportActionBar!!.hide()
 
         val eg10_ai = findViewById<EditText>(R.id.eg10_ai)

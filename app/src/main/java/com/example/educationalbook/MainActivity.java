@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView twelfth_img;
     ImageView fy_img;
 
-    WebView sb_eng;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,19 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.Logout);
         user = auth.getCurrentUser();
         tenth_img = findViewById(R.id.tenth);
-        sb_eng = findViewById(R.id.eng_pdf);
 
-        if (sb_eng != null) {
-            WebSettings webSettings = sb_eng.getSettings();
-            webSettings.setJavaScriptEnabled(true);
-
-            webSettings.setSupportZoom(true); // Enable zoom support
-            webSettings.setBuiltInZoomControls(true); // Enable built-in zoom controls
-            webSettings.setDisplayZoomControls(false);
-
-            sb_eng.setWebViewClient(new WebViewClient());
-            sb_eng.loadUrl("https://drive.google.com/file/d/1cIy4QHHWtapl0hzqbIRm8uxGYnapQldi/view?usp=drive_link");
-        }
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();

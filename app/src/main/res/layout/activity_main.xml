@@ -55,22 +55,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.221" />
 
-        <TextView
-            android:id="@+id/preview"
-            android:layout_width="160dp"
-            android:layout_height="49dp"
-            android:text="10th Math Sample Paper"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.513"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
-            app:layout_constraintVertical_bias="0.028" />
-
         <FrameLayout
             android:id="@+id/frameLayout"
             android:layout_width="408dp"
@@ -145,24 +129,7 @@
                     app:srcCompat="@drawable/card3" />
             </LinearLayout>
         </HorizontalScrollView>
-        <LinearLayout
-            android:id="@+id/webViewContainer"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="10dp"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/preview"
-            app:layout_constraintVertical_bias="1.0">
 
-            <WebView
-                android:id="@+id/eng_pdf"
-                android:layout_width="match_parent"
-                android:layout_height="250dp" />
-        </LinearLayout>
 
 
 

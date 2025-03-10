@@ -11,6 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.educationalbook.FY.ep_fy.ep_bca;
 import com.example.educationalbook.FY.sb_fy.sb_fy_bca;
 import com.example.educationalbook.FY.sb_fy.sb_fy_cp;
 import com.example.educationalbook.FY.sn_fy.sn_fy_bca;
@@ -51,6 +52,13 @@ public class fy_ep_sb_sn extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), sn_fy_bca.class);
+                startActivity(i);
+            }
+        });
+        epfy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), ep_bca.class);
                 startActivity(i);
             }
         });

@@ -1,4 +1,4 @@
-package com.example.educationalbook.FY.sn_fy
+package com.example.educationalbook.FY.ep_fy
 
 import android.os.Bundle
 import android.webkit.WebView
@@ -15,18 +15,17 @@ import com.example.educationalbook.R
 import com.google.ai.client.generativeai.GenerativeModel
 import kotlinx.coroutines.launch
 
-class sn_os : AppCompatActivity() {
+class ep_bc : AppCompatActivity() {
     var sb_eng: WebView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_sn_os)
-
+        setContentView(R.layout.activity_ep_bc)
         sb_eng = findViewById(R.id.eng_pdf)
 
         sb_eng!!.getSettings().javaScriptEnabled = true
         sb_eng!!.setWebViewClient(WebViewClient())
-        sb_eng!!.loadUrl("https://drive.google.com/file/d/1ozY0QZSIWT3NWVcCtj-0kQ3nJzYaXl3o/view?usp=drive_link")
+        sb_eng!!.loadUrl("https://drive.google.com/file/d/1e9TrYRwXdKWwgttEUawXk1mVUX147zRo/view?usp=drive_link")
         supportActionBar!!.hide()
 
         val eg10_ai = findViewById<EditText>(R.id.eg10_ai)
